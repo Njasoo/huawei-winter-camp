@@ -1,19 +1,19 @@
-#LinuxA基础笔记
-##Linux命令行命令
+# LinuxA基础笔记
+## Linux命令行命令
 cp 文件名1 文件名2
 cat 获取文件内容，并打印到控制台
 
 复制文件1的内容到文件2
-###***编译***命令：
+### ***编译***命令：
 gcc -o filename filename.c
 
-###运行命令：
+### 运行命令：
 ./filename
-###生成***汇编***代码
+### 生成***汇编***代码
 gcc -S filename.c
 
 然后就会生成一个名叫filename.s的文件，里面是汇编代码
-##mark down文件
+## mark down文件
 一级标题:\#
 
 二级标题:\##
